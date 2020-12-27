@@ -1,0 +1,45 @@
+// Variables
+@import "variables";
+
+@import "reset";
+
+
+
+// Custom Bootstrap with only the elements we really use
+/* purgecss start ignore */
+@import "bootstrap";
+
+// unpoly
+@import "~unpoly/dist/unpoly.min.css";
+
+/* purgecss end ignore */
+
+
+@import "agorakit";
+
+@import "actions";
+@import "comments";
+@import "dialog";
+//@import "discussions";
+@import "files";
+@import "users";
+@import "settings";
+@import "mobile";
+@import "tags";
+@import "embeds";
+@import "spinner";
+@import "status";
+@import "oembed";
+@import "navigation";
+
+
+
+/**Uncomment to add visual debugging */
+//@import "debug";
+
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
